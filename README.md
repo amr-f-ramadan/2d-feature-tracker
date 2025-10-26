@@ -23,17 +23,6 @@ I implemented and evaluated multiple components of the feature tracking pipeline
 * **Feature Description**: Implemented 6 descriptor algorithms (BRISK, BRIEF, ORB, FREAK, AKAZE, and SIFT)
 * **Matching Algorithms**: Developed both Brute Force and FLANN-based matching with KNN selection and distance ratio filtering
 * **Performance Analysis**: Created a comprehensive benchmarking system (`experiments.py`) to evaluate 42 detector/descriptor combinations
-* **Optimization**: Identified the top 3 detector/descriptor pairs based on speed and accuracy metrics 
-
-### My Contributions
-
-I implemented and evaluated multiple components of the feature tracking pipeline:
-
-* **Data Structure Management**: Designed a ring buffer system to efficiently manage image sequences and optimize memory usage
-* **Keypoint Detection**: Integrated and compared 7 different detectors (HARRIS, FAST, BRISK, ORB, AKAZE, SIFT, and Shi-Tomasi)
-* **Feature Description**: Implemented 6 descriptor algorithms (BRISK, BRIEF, ORB, FREAK, AKAZE, and SIFT)
-* **Matching Algorithms**: Developed both Brute Force and FLANN-based matching with KNN selection and distance ratio filtering
-* **Performance Analysis**: Created a comprehensive benchmarking system (`experiments.py`) to evaluate 42 detector/descriptor combinations
 * **Optimization**: Identified the top 3 detector/descriptor pairs based on speed and accuracy metrics
 
 ## Project Structure
