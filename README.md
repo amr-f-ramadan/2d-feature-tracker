@@ -73,6 +73,7 @@ I implemented the following detection algorithms:
 - Supported both Brute Force and FLANN-based matchers
 - Handled binary and HOG-based descriptors appropriately
 
+## Dependencies
 
 * cmake >= 2.8
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
@@ -94,12 +95,6 @@ I implemented the following detection algorithms:
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./2D_feature_tracking`.
-
-### Matching Strategy
-- Implemented KNN matching with k=2
-- Applied descriptor distance ratio filtering with threshold t=0.8
-- Supported both Brute Force and FLANN-based matchers
-- Handled binary and HOG-based descriptors appropriately
 
 ## Performance Benchmark Results
 
